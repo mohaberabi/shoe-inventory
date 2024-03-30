@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcomeText">Hello and welcome to this naive mobile app made by a naive developer or as he thinks he is , ha ha ha very naive one </string>
+    <string name="get_started">Get Started</string>
+    <string name="instructionsText">Hey , there exist no instructions for such an app it\'s just a demo to demonstrate how naive iam</string>
+    <string name="inverntory">Inverntory</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".ShoeFragment">
+
+
+    <!--    when we have simple and small tree of views wheich we need to add next to each other vertically-->
+    <!--    or horizontally-->
+    <!--    the linearlayout effiecntly can achieve this goal-->
+    <!--    by setting orientation either vertical or horizontal-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/shoeLinearLayout"
+                android:orientation="vertical"
+                android:layout_height="wrap_content" />
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_add"
+            app:tint="@android:color/white"
+
+            android:layout_gravity="bottom|end"
+            app:fabSize="normal" />
+    </LinearLayout>
+
+</layout>
